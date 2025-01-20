@@ -42,13 +42,16 @@ Once the terminal progress bar completes, the downloaded beatmapsets will be ava
 
 ---
 
+> A huge set of ranked mapset ids (around 28,000 mapsets) has been prefetched into beatmapset_ids.txt in this repository, so you don't have to refetch it
+
+> You can also customize the query type by editing the urlretrieve query in download.py
 ## Contributions
 
 This project leverages several useful open-source tools and libraries that have greatly contributed to its functionality:
 
-- **[jaasonw/osu-db-tools](https://github.com/jaasonw/osu-db-tools)**: This repository provides essential tools for reading and working with the osu! database binary files, which are crucial for interacting with osu!'s game data and user information.
+- **[jaasonw/osu-db-tools](https://github.com/jaasonw/osu-db-tools)**: provides essential tools for reading and working with the osu!db binary files.
   
-- **[tybug/ossapi](https://github.com/tybug/ossapi)**: A Python wrapper for the osu! API, which simplifies the process of integrating osu! API functionality into Python projects, providing easy access to data like player scores, beatmaps, and more.
+- **[tybug/ossapi](https://github.com/tybug/ossapi)**: A Python wrapper for the osu! API, which simplifies the process of integrating osu! API functionality into Python.
 
 > If you have any question please contact **aquatic0** on discord or **hsuehchihchung@gmail.com**
 
