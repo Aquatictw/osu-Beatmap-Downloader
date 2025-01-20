@@ -38,8 +38,7 @@ A lightweight tool for mass downloading beatmapsets for rhythm game Osu!.
 ### Copy your osu!.db file (in your osu! folder) to the directory specified in config.json.
 
 Run the main script using:
-``bash
-python main.py``
+``python main.py``
 
 Once the terminal progress bar completes, the downloaded beatmapsets will be available in the **download folder configured in config.json.**
 
