@@ -1,0 +1,8 @@
+{
+  "client_id": "<enter your client id here>",
+  "client_secret": "<enter your client secret here>",
+  "beatmapset_ids_path": "beatmapset_ids.txt",
+  "db_ids_path": "db_ids.txt",
+  "db_path": "osu!.db",
+  "download_path": "./downloads/"
+}
