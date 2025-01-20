@@ -9,9 +9,12 @@ A lightweight tool for mass downloading beatmapsets for rhythm game Osu!.
 ## **Package Installation**  
    Install the required dependencies using `requirements.txt`. It's recommended to use a virtual environment to avoid polluting your environment:  
    ```bash
+   # optional 
    python -m venv venv
    source venv/bin/activate   # On Linux/macOS
    venv\Scripts\activate      # On Windows
+
+   # mandatory
    pip install -r requirements.txt
    ```
 
