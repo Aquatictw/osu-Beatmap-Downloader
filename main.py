@@ -7,7 +7,7 @@ def main():
     # Initialize path values
     with open('config.json', 'r') as config_file: 
         config = json.load(config_file)
-        
+
     beatmapset_ids_path = config['beatmapset_ids_path'] # file containing ranked beatmapset ids
     db_ids_path = config['db_ids_path'] # file containing beatmap ids from osu!.db
     db_path = config['db_path'] # osu!.db file path
