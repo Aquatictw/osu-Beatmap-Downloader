@@ -1,9 +1,10 @@
 from osu_db_tools import buffer
 from tqdm import tqdm
 
+
 def parsedb(osudb, file):
     dbmaps = []
-    with open(osudb, 'rb') as db:
+    with open(osudb, "rb") as db:
         version = buffer.read_uint(db)
         folder_count = buffer.read_uint(db)
         account_unlocked = buffer.read_bool(db)
@@ -85,7 +86,7 @@ def parsedb(osudb, file):
 
             dbmaps.append(beatmap_set_id)
 
-    with open(file, 'w') as fp:
+    with open(file, "w") as fp:
         for item in list(set(dbmaps)):
             fp.write("%s\n" % item)
     # there are alot of other information that can be captured with the above apis
