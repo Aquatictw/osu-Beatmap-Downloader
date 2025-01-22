@@ -55,6 +55,8 @@ This project leverages several useful open-source tools and libraries that have 
   
 - **[tybug/ossapi](https://github.com/tybug/ossapi)**: A Python wrapper for the osu! API, which simplifies the process of integrating osu! API functionality into Python.
 
+- **[Nerinyan](https://nerinyan.moe/)**: A osu! Beatmap Mirror API that is fast and stable
+ 
 > If you have any question please contact **aquatic0** on discord or **hsuehchihchung@gmail.com**
 
 [<img src = "https://github.com/Aquatictw.png?size=70"/>](https://aquatictw.com)
